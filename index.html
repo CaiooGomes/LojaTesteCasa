@@ -36,20 +36,45 @@
             </div>
         </div>
       </nav>
+
+      <div class="imagembannerflex">
+        <button class="botaopassarimagem" onclick="trocarImagem()"><img height="50px" src="./img pt/seta para esquerda.png"></button>
+        <script>
+          var imagemAtual = "./img pt/porque-familia-e-importante.jpg"; // caminho da imagem atual
+
+          function trocarImagem() {
+            var imagem = document.getElementById("imagem1");
+
+            if (imagemAtual === "./img pt/porque-familia-e-importante.jpg") {
+              imagem.setAttribute("src", "./img pt/familia2.jpeg");
+              imagemAtual = "./img pt/familia2.jpeg"; // atualiza o caminho da imagem atual
+            } 
+            else {
+              imagem.setAttribute("src", "./img pt/porque-familia-e-importante.jpg");
+              imagemAtual = "./img pt/porque-familia-e-importante.jpg"; // atualiza o caminho da imagem atual
+            }
+}
+        </script>
+        <img class="Tamanhoimagembanner" src="./img pt/porque-familia-e-importante.jpg" id="imagem1">
+      </div>  
+
+
       <div class="alinhar-galeria-produtos">
-      <div class="bordaCard">
+      <div class="bordaCard corcards">
         <div class="alinhar-conteudo-card">
           <img class="tamanho-foto-produto" src="./assets/imagens/cadeiraGamer.webp">
           <div class="alinhar-info-card">
             <div class="margem-info-produto">
-              <h5>Produto nome</h5>
-              <h7 >Produto descrição</h7>
+              <h5>Cadeira Gamer</h5>
+              <h7>Cadeira de <br> alta qualidade</h7>
             </div>
-            <a class="Margem-botão-produto" href="#"><img width="40px" src="./assets/imagens/Seta-direita.png"></a>
+            <div class="alinharcarrinhocompras">
+              <a href="#"><img class="margemcarrocompra" width="40px" src="./img pt/carrinho.png"></a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="bordaCard">
+      <div class="bordaCard corcards">
         <div class="alinhar-conteudo-card">
           <img class="tamanho-foto-produto" src="./assets/imagens/gt 1030.webp">
           <div class="alinhar-info-card">
@@ -57,23 +82,23 @@
               <h5>Produto nome</h5>
               <h7 >Produto descrição</h7>
             </div>
-            <a class="Margem-botão-produto" href="#"><img width="40px" src="./assets/imagens/Seta-direita.png"></a>
+            <a href="#"><img class="margemcarrocompra" width="40px" src="./img pt/carrinho.png"></a>
           </div>
         </div>
       </div>
-      <div class="bordaCard">
+      <div class="bordaCard corcards">
         <div class="alinhar-conteudo-card">
           <img class="tamanho-foto-produto" src="./assets/imagens/controle ps4.png">
           <div class="alinhar-info-card">
             <div class="margem-info-produto">
-              <h5>Produto nome</h5>
-              <h7 >Produto descrição</h7>
+              <h5>Controle PS4</h5>
+              <h7>  Controle de <br> alta qualidade</h7>
             </div>
-            <a class="Margem-botão-produto" href="#"><img width="40px" src="./assets/imagens/Seta-direita.png"></a>
+            <a href="#"><img class="margemcarrocompra" width="40px" src="./img pt/carrinho.png"></a>
           </div>
         </div>
       </div>
-      <div class="bordaCard">
+      <div class="bordaCard corcards">
         <div class="alinhar-conteudo-card">
           <img class="tamanho-foto-produto" src="./assets/imagens/gtx 1650.webp">
           <div class="alinhar-info-card">
@@ -81,11 +106,11 @@
               <h5>Produto nome</h5>
               <h7 >Produto descrição</h7>
             </div>
-            <a class="Margem-botão-produto" href="#"><img width="40px" src="./assets/imagens/Seta-direita.png"></a>
+            <a href="#"><img class="margemcarrocompra" width="40px" src="./img pt/carrinho.png"></a>
           </div>
         </div>
       </div>
-      <div class="bordaCard">
+      <div class="bordaCard corcards">
         <div class="alinhar-conteudo-card">
           <img class="tamanho-foto-produto" src="./assets/imagens/gtx 1650.webp">
           <div class="alinhar-info-card">
@@ -93,11 +118,11 @@
               <h5>Produto nome</h5>
               <h7 >Produto descrição</h7>
             </div>
-            <a class="Margem-botão-produto" href="#"><img width="40px" src="./assets/imagens/Seta-direita.png"></a>
+            <a href="#"><img class="margemcarrocompra" width="40px" src="./img pt/carrinho.png"></a>
           </div>
         </div>
       </div>
-      <div class="bordaCard">
+      <div class="bordaCard corcards">
         <div class="alinhar-conteudo-card">
           <img class="tamanho-foto-produto" src="./assets/imagens/i310.webp">
           <div class="alinhar-info-card">
@@ -105,11 +130,11 @@
               <h5>Produto nome</h5>
               <h7 >Produto descrição</h7>
             </div>
-            <a class="Margem-botão-produto" href="#"><img width="40px" src="./assets/imagens/Seta-direita.png"></a>
+            <a href="#"><img class="margemcarrocompra"width="40px" src="./img pt/carrinho.png"></a>
           </div>
         </div>
       </div>
-      <div class="bordaCard">
+      <div class="bordaCard corcards">
         <div class="alinhar-conteudo-card">
           <img class="tamanho-foto-produto" src="./assets/imagens/i39.webp">
           <div class="alinhar-info-card">
@@ -117,7 +142,7 @@
               <h5>Produto nome</h5>
               <h7 >Produto descrição</h7>
             </div>
-            <a class="Margem-botão-produto" href="#"><img width="40px" src="./assets/imagens/Seta-direita.png"></a>
+            <a href="#"><img class="margemcarrocompra" width="40px" src="./img pt/carrinho.png"></a>
           </div>
         </div>
       </div>

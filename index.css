@@ -25,49 +25,94 @@
 }
 
 .bordaCard {
-    display: flex;
-    align-items: center;
-    border: 3px;
-    border-style: solid;
-    border-color: black;
-    height: max-content;
-    width: fit-content;
-    margin-top: 10px;
-  }
+  display: flex;
+  align-items: center;
+  border: 3px;
+  border-style: solid;
+  border-color: black;
+  height: max-content;
+  width: fit-content;
+   margin-top: 10px;
+}
   
-  .alinhar-conteudo-card {
-    display: flex;
-    align-items: center;
-  }
+.alinhar-conteudo-card {
+  display: flex;
+  align-items: center;
+}
   
-  .tamanho-foto-produto {
-    margin-right: 16px;
-    height: 150px;
-  }
+.tamanho-foto-produto {
+  margin-right: 16px;
+  height: 150px;
+}
   
-  .alinhar-info-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+.alinhar-info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-right: 5px;
+}
 
-  .margem-info-produto{
-    margin-right: 10px;
-  }
+.margem-info-produto{
+  margin-right: 10px;
+  display: grid;  
+}
 
-  .Margem-botão-produto{
-    display: flex;
-    justify-content: center;
-    border: 2px;
-    border-style: double;
-    border-color: black;
-    width: 50px;
-    background-color: rgb(255, 238, 0);
-    height: 40px;
-  }
+.Margem-botão-produto{
+  display: flex;
+  justify-content: center;
+  border: 2px;
+  border-style: double;
+  border-color: black;
+  width: 50px;
+  background-color: rgb(255, 238, 0);
+  height: 40px;
+}
 
-  .alinhar-galeria-produtos{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
+.alinhar-galeria-produtos{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.corcards{
+  background-color: rgb(131, 131, 131);
+}
+
+.margemcarrocompra{
+  margin-right: 40px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.Tamanhoimagembanner{
+  height: 500px;
+  width: 1900px;
+}
+
+.imagembannerflex{
+  margin:20px ;
+  display: flex;
+  justify-content: left;
+  border-style: solid;
+  border-color: black;
+  align-items: center;
+  position: relative;
+}
+
+.alinharcarrinhocompras{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.botaopassarimagem{
+  position: absolute;
+  background-color: transparent;
+  border-style: none;
+  height: 40px;
+  display: grid;
+
+
+}
+
